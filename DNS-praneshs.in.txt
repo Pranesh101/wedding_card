@@ -1,0 +1,23 @@
+GoDaddy DNS for praneshs.in → Vercel
+=====================================
+
+After Vercel project is deployed, add domain in Vercel Settings → Domains.
+
+In GoDaddy: Domain → praneshs.in → DNS → Records
+
+Remove parking A/CNAME on @ and www if present.
+
+Add:
+
+  Type: A
+  Name: @
+  Value: 76.76.21.21
+  TTL: 600 (or default)
+
+  Type: CNAME
+  Name: www
+  Value: cname.vercel-dns.com
+  TTL: 600 (or default)
+
+Guest URL (recommended): https://www.praneshs.in
+Also works: https://praneshs.in (redirect via Vercel)
