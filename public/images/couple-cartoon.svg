@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Couple illustration placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e8dcf8"/>
+      <stop offset="100%" stop-color="#d4c4ef"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a7fd4"/>
+      <stop offset="100%" stop-color="#2f5fad"/>
+    </linearGradient>
+    <linearGradient id="saree" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5a9a72"/>
+      <stop offset="100%" stop-color="#3d7358"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)" rx="24"/>
+  <circle cx="200" cy="200" r="118" fill="#fff" opacity="0.55"/>
+  <circle cx="158" cy="175" r="52" fill="#f5d0c4"/>
+  <circle cx="248" cy="178" r="50" fill="#f0c8ba"/>
+  <path d="M108 320 Q158 250 158 220 Q158 280 128 320 Z" fill="url(#shirt)"/>
+  <path d="M292 320 Q242 250 242 218 Q242 278 272 320 Z" fill="url(#saree)"/>
+  <rect x="155" y="168" width="46" height="12" rx="6" fill="#2a2a2a" opacity="0.85"/>
+  <rect x="235" y="170" width="44" height="11" rx="5.5" fill="#6b4423" opacity="0.7"/>
+  <text x="200" y="368" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#5c3d7a">Pranesh &amp; Nivethitha</text>
+</svg>
